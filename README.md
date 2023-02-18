@@ -1,2 +1,2 @@
 # alx-low_level_programming
-This repo is for alx c programming tasks 
+This repo is for alx C Programming tasks 
