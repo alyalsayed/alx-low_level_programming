@@ -10,17 +10,24 @@
  */
 int main(void)
 {
-	int c = 0;
+	int i;
+	int j;
 
-	while (c < 10)
+	for (i = 0; i <= 8; i++)
 	{
-		putchar('0' + c);
-		if (c != 9)
+		for (j = 1; j <= 9; j++)
 		{
-			putchar(',');
-			putchar(' ');
+			if (i != j && i < j)
+			{
+				putchar('0' + i);
+				putchar('0' + j);
+				if (i != 8 || j != 9)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
-		c++;
 	}
 	putchar('\n');
 	return (0);
