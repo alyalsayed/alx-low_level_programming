@@ -1,2 +1,2 @@
 # alx-low_level_programming
-alx task 1 in c  if and  while loops  
+## 0x01-variables_if_else_while 
